@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #800080;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.titre h1 {
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+/* Paragraphe d'introduction 
+
+.paragraphe p {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+*/
+
+.container {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pricingCardsContainer {
+    text-align: center;
+}
+
+/* Cartes d'abonnement */
+
+.Basic,.Pro, .Premium {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    background-color: #454555;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+/* Titres d'abonnement */
+
+.Basic h2,.Pro h2,.Premium h2 {
+    padding: 20px;
+    text-shadow: 4px 4px 4px #000000;
+}
+
+.Basic h2 {
+    background-color: #0091E1;
+}
+
+.Pro h2 {
+    background-color: #EF4960;
+}
+
+.Premium h2 {
+    background-color: goldenrod;
+}
+
+/* Prix d'abonnement */
+
+#prix {
+    padding: 20px;
+}
+
+.dollar {
+    font-size: 20px;
+    text-shadow: 2px 3px 2px black;
+}
+
+.price {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 5px 1px black;
+}
+
+.cents {
+    font-size: 20px;
+    text-shadow: 2px 2px 1px black;
+}
+
+#prix p {
+    color: #BFC0E0;
+}
+
+/* Liste des fonctionnalités */
+
+#features {
+    list-style: none;
+    color: lightgray;
+    font-size: 15px;
+}
+
+#features li {
+    padding: 10px;
+    border-top: 2px solid #85869A;
+/*    text-shadow: 2px 2px 2px black;*/
+}
+
+/* Bouton Ajouter au panier*/
+
+.cart {
+    width: 100%;
+    padding: 25px;
+    background-color: #454555;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 2px 3px 2px black;
+}
+
+/* Changement de couleur du bouton au survol */
+
+.Basic .cart:hover {
+    background-color: #0091E1;
+}
+.Pro .cart:hover {
+    background-color: #EF4960;
+}
+.Premium .cart:hover {
+    background-color: goldenrod;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer small {
+    font-size: 16px;
+}
