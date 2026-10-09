@@ -141,6 +141,7 @@ footer {
     margin-top: 40px;
 }
 
-footer small {
-    font-size: 16px;
+.copy {
+    font-size: 18px;
+    text-align: center;
 }
